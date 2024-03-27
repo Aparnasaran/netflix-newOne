@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif
+}
+
+.main {
+    background-image: url(img/banner.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no repeat;
+    height: 90vh;
+    position: relative
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.4;
+    background-color: black;
+    position: absolute;
+    top: 0
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+nav img {
+    color: rgb(229, 9, 20);
+    width: 114px;
+    position: relative;
+    z-index: 10
+}
+
+.nav-button {
+    position: relative;
+    z-index: 10;
+}
+
+.box-text {
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px
+}
+
+
+
+.box-text>:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.box-text>:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 400;
+
+
+
+}
+
+.banner-text>:nth-child(3) {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: rgb(46, 43, 43);
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.btn-signin {
+    background-color: red;
+    color: white
+}
+
+.btn-red {
+    vertical-align: text-top;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+
+}
+
+.box-text-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+}
+
+.input {
+    color: #ffffff;
+    border-radius: 4px;
+    line-height: 2.1;
+    background-color: rgb(26, 25, 25);
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 7px 120px 9px 7px;
+}
+
+.separation {
+    height: 8px;
+    background-color: rgb(27, 25, 25);
+    position: relative;
+    z-index: 20;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: auto;
+
+}
+.cont-img{
+    position: relative;
+}
+.cont-img img{
+    width:555px;
+    position:relative;
+    z-index: 10;
+}
+.cont-img video{
+    position: absolute;
+    top:51px;
+    right:0px;
+    width:555px;   
+}
+.cont-img3 video{
+    position:absolute;
+    top:71px;
+    right:96px;
+    width:359px;
+}
+.cont-img3 img{
+    width:555px;
+    position:relative;
+    z-index: 10;
+}
+section.container>div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+section.container>div :nth-child(1){
+    font-size: 42px;
+    font-weight: bolder;  
+   
+}
+section.container>div :nth-child(2){
+    font-size: 20px;      
+}
+    .faq{
+        color:white;
+        background-color: black;
+        padding: 30px; }
+    .faq h2{
+        text-align: center;
+        font-weight: 900;
+        font-size: 48px;
+    }
+    .faqbox{
+        font-weight: 400;
+        font-size: 24px;
+        max-width: 60vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 25px auto;
+        background-color:#2d2d2d;
+        padding: 23px;
+        cursor: pointer;
+    }
+    .faqbox:hover{
+        background-color: #414141;
+        color:white;
+
+    }
+    footer{
+        color:#ffff;
+        max-width: 60vw;
+        margin: auto;
+        padding: 60px;
+    }
+    .ques{
+        padding:34px 0;
+    }
+    footer>.foot-box{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        color:white;
+    }
+    .foot-box a{
+        font-size:14px;
+        color:white;
+    }
+    .foot-box .items{
+        display:flex;
+        gap:25px;
+        flex-direction: column;
+    }
